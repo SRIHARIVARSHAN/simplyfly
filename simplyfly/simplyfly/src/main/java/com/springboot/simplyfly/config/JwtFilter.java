@@ -58,6 +58,8 @@ public class JwtFilter extends OncePerRequestFilter {
 
         filterChain.doFilter(request,response);
 
-        //Run sonarQube
+
+        // SonarQube analysis
+
     }
 }
